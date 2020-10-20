@@ -10,7 +10,7 @@ namespace Test.App
     {
         static void Main(string[] args)
         {
-            var cmd = new CreateProfileCmd("Cristi", string.Empty, "Ciorna", "cristi.ciorna@company.com");
+            var cmd = new CreateProfileCmd("Ion", string.Empty, "Ionescu", "ion.inonescu@company.com");
             var result = CreateProfile(cmd);
 
             result.Match(
